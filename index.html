@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="googlebot" content="noindex" />
+    <title>Mermaids & Tadpoles</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/lbe5cjb.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/logo-02.png" alt="Mermaids & Tadpoles logo"
+        /></a>
+        <ul class="nav-list">
+          <li onclick="showMenu()" class="nav-item">
+            <a onclick="" class="nav-link" href="index.html"> Home </a>
+          </li>
+          <li onclick="showMenu()" class="nav-item">
+            <a class="nav-link" href="lessons.html"> Lessons </a>
+          </li>
+          <li onclick="showMenu()" class="nav-item">
+            <a class="nav-link" href="about.html"> About </a>
+          </li>
+          <li onclick="showMenu()" class="nav-item">
+            <a class="nav-link" href="#"><span>Book Now</span></a>
+          </li>
+        </ul>
+        <div class="menu-toggle">
+          <div onclick="showMenu()" class="hamburger"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Banner -->
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>Mermaids & Tadpoles</h1>
+          <p>Kids Swimming Lessons</p>
+          <a href="#">Make a Splash</a>
+        </div>
+      </div>
+      <!-- Lessons -->
+      <section class="lessons">
+        <h2>Start with the lesson that’s right for you.</h2>
+        <p>
+          All lessons are individualized to meet the child where they are by
+          working at the child’s pace and level of comfort.
+        </p>
+        <div class="columns-three">
+          <div class="group private">
+            <figure>
+              <img src="images/private.jpeg" alt="Kid Swimming" />
+              <figcaption>
+                <h3>Private 1 on 1</h3>
+                <p>
+                  Work on the skills your child needs in order to be safe and
+                  efficient in the pool all while still having fun!
+                </p>
+              </figcaption>
+            </figure>
+            <a href="lessons.html">Learn More</a>
+          </div>
+          <div class="group family">
+            <figure>
+              <img src="images/family.jpeg" alt="Kid Swimming" />
+              <figcaption>
+                <h3>Family Swim</h3>
+                <p>
+                  Available for up to 3 children keeping the time similar
+                  between the children and will be taught similar to a private
+                  1:1 lesson.
+                </p>
+              </figcaption>
+            </figure>
+            <a href="lessons.html">Learn More</a>
+          </div>
+          <div class="group competitive">
+            <figure>
+              <img src="images/competive.jpeg" alt="Kid Swimming" />
+              <figcaption>
+                <h3>Competitive Technique</h3>
+                <p>
+                  Focuses on techniques and geared towards those wanting to
+                  become a competitive swimmer or looking to refine their
+                  strokes.
+                </p>
+              </figcaption>
+            </figure>
+            <a href="lessons.html">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="whoweare about">
+        <figure>
+          <img src="images/about.png" alt="Kid Swimming" />
+        </figure>
+        <div>
+          <h2>About Us</h2>
+          <p>
+            We want kids to have fun in the water building life skills and
+            gaining self-confidence along the way.
+          </p>
+          <p>
+            We’ve created a safe, fun environment where kids can conquer their
+            water fears, learn to swim and respect the water.
+          </p>
+          <a href="about.html">Learn More</a>
+        </div>
+      </section>
+      <!-- CTA -->
+      <section class="cta">
+        <p>Book Your Session</p>
+        <h2>Let's Jump In!</h2>
+        <a href="#">Book Now</a>
+      </section>
+      <!-- Contact Form -->
+      <section class="contact">
+        <h2>Have More Questions?</h2>
+        <p>
+          Contact us and we’ll help you get started with Mermaids & Tadpoles.
+        </p>
+        <form class="mermaid-form" method="POST" action="mermaid-form.php">
+          <div class="name input-section">
+            <label for="name" class="label_input_wrap">Full Name:</label>
+            <input
+              type="text"
+              name="req_name"
+              id="name"
+              placeholder="Full Name"
+            />
+          </div>
+
+          <div class="telephone input-section">
+            <label for="telephone" class="label_input_wrap">Phone:</label>
+            <input
+              type="tel"
+              name="req_telephone"
+              id="telephone"
+              placeholder="Phone"
+            />
+          </div>
+
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email:</label>
+            <input
+              type="email"
+              name="req_email"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+
+          <div class="message input-section">
+            <label for="message" class="label_input_wrap">Message:</label>
+            <textarea
+              name="message"
+              placeholder="Enter your message here..."
+              id="message"
+              cols="30"
+              rows="6"
+            ></textarea>
+          </div>
+
+          <div class="reset input-section">
+            <input type="reset" value="Cancel" />
+          </div>
+          <div class="submit input-section">
+            <input type="submit" value="Send Message" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="index.html"><img src="images/logo-02.png" alt="Mermaids & Tadpoles logo" /></a>
+      </div>
+      <div>
+        <a
+          ><span><img src="images/fblogo.svg" alt="Facebook logo" /></span
+        ></a>
+        <a
+          ><span><img src="images/iglogo.svg" alt="Instagram logo" /></span
+        ></a>
+      </div>
+      <div class="menu">
+        <a href="lessons.html">Lessons</a>
+        <a href="about.html">About Us</a>
+        <a href="#">Book Now</a>
+      </div>
+      <div>
+        <p>&#169; 2022</p>
+      </div>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>

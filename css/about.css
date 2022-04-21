@@ -1,0 +1,76 @@
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/abouthero.png");    /* Set a specific height */
+    height: 500px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about{
+    margin: 20px auto;
+}
+.choose {
+    padding: 40px 15px;
+    text-align: center;
+  }
+.choose h2 {
+    color: #22a3d6;
+    padding-bottom: 15px;
+}
+.group{
+    text-align: center;
+}
+.group figure img{
+    width: 60px;
+    background-color: #79C7D5;
+    padding: 10px;
+}
+.belief{
+    margin-top: -20px;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+.belief p{
+    color: #fff;
+}
+.item{
+    flex-basis: 100%;
+}
+.casey{
+    text-align: center;
+}
+.casey img{
+    width: 60%;
+}
+.safety{
+    background-color: #db167f;
+}
+.star{
+    background-color: #22a3d6;
+}
+.trust{
+    background-color: #89439a;
+}
+.columns-three{
+    gap: 0;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+    .about {
+      display: flex;
+      align-items: center;
+      width: 90%;
+    }
+    .about p,
+    h2{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .img1{
+        order: 2;
+    }
+}

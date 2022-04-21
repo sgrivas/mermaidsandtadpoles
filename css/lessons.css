@@ -1,0 +1,54 @@
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */ 
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../images/lessonshero.png");
+
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about{
+    width: 80%;
+    margin: 0 auto;
+}
+.item{
+    flex-basis: 100%;
+}
+.item a{
+    background-color: #f2803e;
+  color: #fff;
+  font-family: brevia, sans-serif;
+  font-weight: 500;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+.about h2{
+    color: #fff;
+}
+.private{
+    border-radius: 20px;
+    margin: 30px auto;
+}
+.family{
+    border-radius: 20px;
+    margin: 30px auto;
+}
+.competitive{
+    border-radius: 20px;
+    margin: 30px auto;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 992px) {
+    .about {
+      display: flex;
+      align-items: center;
+      width: 80%;
+    }
+}
