@@ -1,1 +1,2 @@
-# mermaidsandtadpoles
+# Mermaids & Tadpoles
+## School Project
